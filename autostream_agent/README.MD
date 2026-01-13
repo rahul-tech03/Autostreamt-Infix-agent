@@ -107,7 +107,7 @@ Classification is LLM-driven but constrained to known labels.
 ## 📚 RAG Implementation
 
 * Knowledge base is chunked and embedded
-* Stored in FAISS or Chroma
+* Stored in FAISS
 * Retriever uses top-k semantic search
 * Context injected into a strict prompt
 
@@ -229,5 +229,6 @@ This architecture cleanly separates messaging infrastructure from agent logic, a
 * LangGraph
 * OpenAI LLMs
 * ChromaDB (local vector store)
+
 
 ---
